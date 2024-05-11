@@ -1,0 +1,43 @@
+.circularProgress {
+  transition: transform 0.5s ease-in-out;
+}
+
+.progressBarBackground {
+  fill: none;
+  stroke: #e0e0e0; /* Background color */
+  stroke-width: 5;
+}
+
+.progressBar {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+  animation: rotateInAnimation 5s ease-in-out;
+}
+
+@keyframes rotateInAnimation {
+  from {
+    transform-origin: center;
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+
+  to {
+    transform-origin: center;
+    transform: none;
+    opacity: 1;
+  }
+}
