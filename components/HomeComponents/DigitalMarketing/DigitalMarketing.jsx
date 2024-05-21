@@ -36,16 +36,15 @@ const DigitalMarketing = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-              Seamless Web Design
+              Integrated Solutions Development
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-              Craft a captivating online presence<br /> that not only attracts but retains visitors <br />
-              with our seamless web design solutions, <br /> ensuring a smooth and memorable 
-                <br />
-                user journey from start to finish. 
+              Create a robust online ecosystem with our integrated solutions Synergy’s approach ensures not just visitor attraction but retention by
+              weaving various functionalities into a cohesive user experience that supports your business objectives from the ground up.
+              
               </div>
             
-             <a href="#"
+             <a href="/About"
              className="text-center text-purple-600 text-xl font-bold leading-8 mt-5">
                 Read More
               </a>
@@ -71,15 +70,13 @@ const DigitalMarketing = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-              UI/UX Review
+              Systems Optimization Consulting
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-              Elevate your digital presence to <br />  new heights with our expert UI/UX review,     <br />  
-              optimizing every aspect of your interface to
-               <br /> enhance user engagement,  satisfaction,<br /> and ultimately,  conversions. 
-              
+              Take your operational efficiency to the next level with Synergy’s systems optimization services. Our expertise in UI/UX design and backend integration will help refine all facets of your digital interfaces,
+               boosting both user engagement and conversion rates              
               </div>
-              <a href="#"
+              <a href="/About"
              className="text-center text-purple-600 text-xl font-bold leading-8 mt-5">
                 Read More
               </a>
@@ -104,15 +101,13 @@ const DigitalMarketing = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-              Social Media Marketing
+              Strategic Digital Marketing
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-              Ignite your brand’s growth across social  <br />  platforms with our tailored social  media marketing 
-                <br /> strategies, driving engagement, fostering community,  and 
-                <br />
-               propelling your brand  to the forefront <br />of conversations.
+              Activate the potential of your brand with Synergy’s strategic digital marketing services. We focus on leveraging multi-platform strategies to amplify your brand’s voice, increase engagement, and build a
+               thriving community around your products and services.
               </div>
-              <a href="#"
+              <a href="/About"
              className="text-center text-purple-600 text-xl font-bold leading-8 mt-5">
                 Read More
               </a>

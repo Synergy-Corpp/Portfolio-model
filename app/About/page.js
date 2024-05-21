@@ -3,8 +3,8 @@
 import About1 from "../../components/AboutComponents/About1"
 import About2 from "../../components/AboutComponents/About2"
 import AboutBot from "../../components/AboutComponents/AboutBot"
-import AboutClientReviews from "../../components/AboutComponents/AboutClientReviews"
-import AboutTeam from "../../components/AboutComponents/AboutTeam"
+// import AboutClientReviews from "../../components/AboutComponents/AboutClientReviews"
+// import AboutTeam from "../../components/AboutComponents/AboutTeam"
 
 const page = () => {
   return (
@@ -17,9 +17,9 @@ const page = () => {
         </div>
    <About1 />
    <About2 />
-   <AboutTeam />
+   {/* <AboutTeam /> */}
    <AboutBot />
-   <AboutClientReviews />
+   {/* <AboutClientReviews /> */}
     </section>
         
     </>

@@ -36,11 +36,11 @@ const FullServiceDigi = () => {
               />
             </div>
             <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-            Organic Long Term SEO
-            </h2>
+            Customized Business Solutions
+             </h2>
             <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-            Propel your website to the top of search  <br /> engine results and keep it there with our organic,
-             <br /> long-term SEO approach, ensuring sustained  <br /> visibility, credibility, and growth for your  <br />  online presence.
+            Unlock your business potential with Synergy’s tailored solutions. 
+            Our approach goes beyond standard practices to develop unique strategies that address your specific challenges and opportunities, ensuring long-term success and resilience in your market
             </div>
             <button
           className="digiButton text-center mt-6 text-white text-xl font-bold leading-8
@@ -70,11 +70,12 @@ const FullServiceDigi = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-              AI Chatbot Integration
+              Advanced Technology Integration
+
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-              Delight your customers and streamline  <br /> your operations with our AI chatbot  integration<br /> services, offering personalized and responsive <br /> assistance 24/7
-            enhancing customer     <br />  satisfaction and loyalty.
+              Leverage the latest in technology with Synergy’s cutting-edge solutions. From software development to systems integration, our technology services are designed to enhance operational efficiency and drive innovation, 
+              keeping your business ahead of the technological curve
               </div>
               <button className="text-center mt-6 text-white text-xl font-bold leading-8
               bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
@@ -102,12 +103,11 @@ const FullServiceDigi = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-              Payment Gateway Integration
+              Dynamic Marketing Strategies
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-              Simplify the payment process and enhance <br /> customer convenience with our seamless payment <br />  gateway integration solutions, ensuring   secure 
-                <br />
-              transactions and a frictionless checkout  <br /> experience for your users.
+              Transform your brand’s reach with Synergy’s comprehensive marketing services. We specialize in creating dynamic campaigns that engage and captivate your target audience, utilizing a mix of traditional and digital
+               channels to maximize exposure and return on investment
               </div>
               <button className="text-center mt-6 text-white text-xl font-bold leading-8
             bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]

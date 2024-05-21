@@ -3,8 +3,8 @@ import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import { useRef, useEffect } from 'react';
 
 const About2 = () => {
-  const percentages = [92, 76, 80]; 
-  const progressBarRefs = Array.from({ length: 3 }, () => useRef(null));
+  const percentages = [92, 76, 80, 96, 74]; 
+  const progressBarRefs = Array.from({ length: 5 }, () => useRef(null));
   const isMounted = useRef(true);
 
   useEffect(() => {
@@ -56,20 +56,20 @@ const About2 = () => {
      
           <div className="max-w-full justify-center relative w-[1140px] mx-auto px-3 py-6 max-md:pl-5">
           <div className="text-teal-500 text-sm leading-7 uppercase max-md:max-w-full">
-                WHAT DO WE DO?
+          What Sets Us Apart?
         </div>
-        <h1 className="text-neutral-700 text-3xl leading-10 mt-6 max-md:max-w-full">
+        {/* <h1 className="text-neutral-700 text-3xl leading-10 mt-6 max-md:max-w-full">
                 Fresh Ideas for Every Business
-        </h1>
+        </h1> */}
             <div className="gap-5 flex max-md:flex-col-reverse max-md:items-stretch max-md:gap-0">
               {/* progress bar and description */}
               <div ref={leftColumnRef} className="flex flex-row items-stretch  max-md:w-full max-md:ml-0">
                 {/* progress bar */}
-                <div className="flex flex-col w-[28%] items-center max-md:mt-10">
+                <div className="flex mb-4 flex-col w-[28%] items-center max-md:mt-10">
                 {progressBarRefs.map((ref, index) => (
                 <div
                   key={index}
-                  className={`flex-col text-neutral-700 text-center text-2xl leading-6 relative whitespace-nowrap overflow-hidden aspect-[1.055045871559633] justify-center items-stretch px-9 py-4 max-md:px-5 rotateIn`}
+                  className={`flex-col text-neutral-700 text-center text-2xl leading-6 relative whitespace-nowrap overflow-hidden aspect-[1.055045871559633] justify-center items-stretch px-9 mb-8 max-md:px-5 rotateIn`}
                   ref={ref}
                 >
                       <CircularProgressBar percentage={percentages[index]} color="purple" animate={true} />
@@ -82,22 +82,33 @@ const About2 = () => {
                   Innovative Solutions
                   </h2>
                   <p className="text-gray-500 text-base leading-6 mt-3">
-                  Charting the uncharted in digital innovation, we deliver solutions that defy convention. Our creative prowess translates into a 92% success 
-                  rate for businesses seeking transformative strategies.
+                  We push the boundaries of what’s possible, bringing cutting-edge technology and creative strategies together to deliver solutions that are not only efficient but also revolutionary.
                   </p>
                   <h2 className="text-neutral-700 text-xl leading-8 mt-11 max-md:mt-10">
-                  Tailored Tactics
+                  Tailored Strategies
                   </h2>
                   <p className="text-gray-500 text-base leading-6 mt-3">
-                  Customization is at the core of our tactics, resulting in 76% of our campaigns outperforming industry benchmarks. We tune into your 
-                  unique frequency to hit the sweet spot of innovation
+                  Understanding that each business has unique needs, we craft customized strategies that align with your specific goals and challenges, ensuring optimal results and superior performance.
+
                   </p>
-                  <h2 className="text-neutral-700 text-xl leading-8 mt-12 max-md:mt-10">
-                  Strategic Mastery
-                  </h2>
+                  <h2 className="text-neutral-700 text-xl leading-8 mt-16 max-md:mt-10">
+                  Results-Driven Approach  
+                   </h2>
                   <p className="text-gray-500 text-base leading-6 mt-3.5">
-                  With 80% of our projects setting new industry standards, our strategic mastery ensures your business 
-                  not only meets but exceeds its digital aspirations
+                  Our focus is not just on providing services but on delivering measurable outcomes that contribute to your success. We help you navigate the complexities of the digital world with ease and confidence.
+
+                  </p>
+                  <h2 className="text-neutral-700 text-xl leading-8 mt-16 max-md:mt-10">
+                   Expert Team 
+                   </h2>
+                  <p className="text-gray-500 text-base leading-6 mt-3.5">
+                  Our team comprises industry veterans with years of experience in their respective fields, offering insights and expertise that are unparalleled in the tech industry.
+                  </p>
+                  <h2 className="text-neutral-700 text-xl leading-8 mt-16 max-md:mt-10">
+                  Join Us on Your Journey to Digital Excellence
+                   </h2>
+                  <p className="text-gray-500 text-base leading-6 mt-3.5">
+                  At Synergy Solutions, we are excited to partner with you and embark on a journey towards digital excellence. Together, we will explore new opportunities, overcome obstacles, and achieve outstanding results that will set your business up for long-term success.
                   </p>
                 </div>
               </div>

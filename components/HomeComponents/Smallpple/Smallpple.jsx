@@ -32,18 +32,25 @@ return (
         <div ref={rightColumnRef} className=" flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
           <header className="flex flex-col mt-4 max-md:max-w-full max-md:mt-10">
             <h2 className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch max-md:max-w-full">
-              Grow Traffic & Increase Revenue
-            </h2>
+            Master Your Market with Synergy’s Integrated Marketing Solutions            </h2>
             <h3 className="text-black text-lg font-bold leading-7 tracking-normal uppercase self-stretch mt-16 max-md:max-w-full max-md:mt-10">
-              Appear On the Front Page of Google!
-            </h3>
+            Drive Growth with Targeted, Effective Marketing Strategies!            </h3>
             <p className="text-black text-lg leading-7 tracking-normal self-stretch mt-14 max-md:max-w-full max-md:mt-10">
-            Harness the power of SEO to propel your business to new heights!<br /> <br />With 
-           strategic optimization, your website gains visibility, credibility,
-               and authority,  attracting qualified leads and boosting conversions. <br />
-              <br /> SEO isn’t just about ranking higher – it’s about understanding your 
-              audience and tailoring your offerings to their needs.
-              <br /><br /> Plus, it’s a long-term strategy with enduring rewards, delivering sustainable growth for your business.<br /> <br />Ready to unlock your business’s full potential? <br />Start with SEO today.
+            In today’s fast-paced digital landscape, effective marketing is about understanding and reaching your audience at every touchpoint. Synergy’s integrated marketing solutions provide a comprehensive approach that combines traditional and digital 
+            methods to amplify your brand’s reach and impact.            
+            <br />Our expertise spans across all channels — from digital advertising and social media campaigns to email marketing and public relations — ensuring that your message is consistent and compelling across all platforms. Synergy leverages data-driven insights to tailor campaigns that engage the right audience with the right message at the right time,
+             maximizing both reach and response rates. <br />
+              <br /> 
+              
+              With Synergy’s strategic marketing, we not only help you capture attention but also cultivate loyalty and trust amongst your customer base, turning casual browsers into lifelong customers. Our approach ensures that every marketing effort supports broader business objectives, driving measurable results and sustainable growth.
+
+              <br /><br />
+              
+              Ready to dominate your industry and achieve unprecedented success?
+              <br /> 
+               <br />Partner with Synergy for marketing that delivers more than just results—it delivers transformation.
+
+
             </p>
             <a href= "/About">
             <button

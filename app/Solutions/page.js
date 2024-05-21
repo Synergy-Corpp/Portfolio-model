@@ -1,7 +1,6 @@
 'use client'
-import StandingDigi from '../../components/HomeComponents/StandingDigi/StandingDigi'
 import ServicesGrid from '../../components/ServiceComponents/ServicesGrid'
-import Meeting from '../../components/ServiceComponents/Meeting'
+import SolutionsStanding from '../../components/SolutionsComponent/SolutionsStanding'
 
 const page = () => {
   return (
@@ -12,9 +11,9 @@ const page = () => {
                  Solutions
             </div>
         </div>
-    <StandingDigi />
+    <SolutionsStanding />
     <ServicesGrid />
-    <Meeting />
+ 
     </section>
         
     </>

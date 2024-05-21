@@ -15,12 +15,10 @@ const  ServicesGrid=()=> {
 
   return (
     <section className="flex flex-col items-center px-5">
-      <h3 className="text-teal-500 text-center text-sm leading-7 uppercase whitespace-nowrap">
+      <h3 className="text-teal-500 mt-10  text-center text-3xl leading-7 uppercase whitespace-nowrap">
         OUR SERVICES
       </h3>
-      <h4 className="text-neutral-700 text-center text-3xl leading-10 whitespace-nowrap mt-6">
-        Let’s Check Our Services
-      </h4>
+      
       <div ref={zoomInUpRef}  className="self-stretch w-full mt-16 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
@@ -34,8 +32,7 @@ const  ServicesGrid=()=> {
                 Social Media Strategy
               </h4>
               <p className="text-gray-500 text-center text-base leading-6 mt-3">
-              Navigate the social landscape with our expert strategy tailored to amplify your brand’s voice. Engage your audience, spark meaningful conversations, and convert followers into
-               fans with our innovative campaigns designed for impact.
+              Synergy crafts comprehensive social media strategies that elevate your brand’s presence and influence. Our experts design campaigns that not only engage and enlarge your audience but also convert them into active brand advocates. With targeted content and continuous interaction, we create a thriving social ecosystem for your brand.
               </p>
             </span>
           </div>
@@ -50,8 +47,7 @@ const  ServicesGrid=()=> {
                 Online Analysis
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-2">
-              Unlock the power of data with our comprehensive online analysis. Dive deep into metrics that matter and emerge with actionable insights to outpace the competition. Optimize your digital 
-              presence with strategies informed by real-time analytics
+              Our online analysis service utilizes advanced analytics to dissect your digital performance across all platforms. Synergy provides detailed insights into user behavior, traffic sources, and engagement patterns, allowing you to make data-driven decisions that outpace the competition and optimize your digital strategy for maximum impact.
               </div>
             </span>
           </div>
@@ -66,8 +62,7 @@ const  ServicesGrid=()=> {
                 Web Development
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-4">
-              Bring your digital vision to life with our expert web development services. From responsive design to custom features, we build websites that perform flawlessly on all devices, crafted 
-              to engage your audience and elevate your online presence.
+              Synergy specializes in developing high-performing websites that are both aesthetically pleasing and highly functional. From responsive designs that adapt to any device to custom features that cater specifically to your business needs, our web development services ensure your online platform is powerful, intuitive, and ready to convert visitors into customers.
               </div>
             </span>
           </div>
@@ -86,9 +81,8 @@ const  ServicesGrid=()=> {
                 SEO Marketing
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-3">
-              Gain visibility where it counts with our strategic SEO marketing. We focus on driving your website to the top of search rankings, connecting you with your target audience through optimized content and cutting-edge
-              techniques to increase organic traffic and conversions
-              </div>
+              Enhance your visibility and organic search rankings with Synergy’s SEO marketing services. We implement cutting-edge SEO tactics focused on long-term growth, ensuring your website attracts high-quality traffic and maintains a strong online presence. Our approach is tailored to align with your specific market and audience, providing sustained results
+            </div>
             </span>
           </div>
           <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
@@ -102,8 +96,7 @@ const  ServicesGrid=()=> {
                 Payment Gateway Integration
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-2.5">
-              Seamlessly empower your online transactions with our secure payment gateway integration services. Offering a smooth checkout experience, we ensure reliability and flexibility for your customers, supporting a wide range of payment methods to
-               boost your sales and streamline your financial processes.
+              Synergy streamlines your e-commerce operations with seamless payment gateway integration services. Our solutions are designed to facilitate easy, secure, and quick transactions, enhancing the user experience and boosting customer trust. With our expert integration, ensure smooth and efficient payment processes that keep your customers satisfied.
               </div>
             </span>
           </div>
@@ -118,8 +111,7 @@ const  ServicesGrid=()=> {
                 AI Chatbot Integration
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-4">
-              Revolutionize customer interaction with our AI chatbot integration. Available 24/7, our smart chatbots provide instant, accurate responses to customer inquiries, enhancing user experience, reducing wait times, and
-               freeing up your staff to focus on growing your business
+              Leverage the power of artificial intelligence with Synergy’s AI chatbot integration. Our chatbots are engineered to provide real-time, efficient customer support and engagement. They are capable of handling a wide range of queries with prompt responses, ensuring your customers receive the attention they need whenever they need it, thereby boosting overall customer satisfaction.
               </div>
             </span>
           </div>
@@ -135,11 +127,9 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.25] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-2.5">
-                Media Promotion
-              </div>
+              Custom Software Development              </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-2.5">
-              Make your brand the center of attention with our strategic media promotion services. We craft compelling narratives that resonate with your target audience, deploying them across the perfect mix of platforms 
-              to amplify your message and elevate your brand’s profile.
+              Transform your operational challenges into streamlined solutions with Synergy’s custom software development. We design and develop bespoke software tailored to meet the unique demands of your business. From automating routine tasks to creating complex data management systems, our custom solutions are built to improve efficiency, scalability, and performance.
               </div>
             </span>
           </div>
@@ -151,11 +141,10 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.22] object-contain object-center w-[105px] overflow-hidden self-center max-w-full mt-2"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap">
-                Email Marketing
+              Digital Transformation Consulting
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mb-2">
-              Connect with your customers where it matters most — their inbox. Our email marketing campaigns combine persuasive content with stunning design to grab attention, boost open rates, and 
-              foster enduring customer relationships that drive sales
+              Navigate your digital transformation journey with Synergy as your expert guide. We help businesses leverage digital technologies to reinvent their operations and strategies. Our consulting services cover everything from IT infrastructure upgrades to the implementation of digital tools that enhance decision-making and customer engagement.
               </div>
             </span>
           </div>
@@ -167,11 +156,9 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.19] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-3">
-                Comprehensive UI/Ux
-              </div>
+              Cloud Services and Management              </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-3">
-              We will do a very extensive User interface analysis for your product and we will also at a very cost effective price, 
-              conduct a user experience test for your application
+              Synergy offers comprehensive cloud services and management solutions designed to ensure your business enjoys the full benefits of cloud technology. Our services include cloud migration, infrastructure management, and security, providing you with scalable, flexible, and secure cloud environments that support your business growth and operational needs.
               </div>
             </span>
           </div>
