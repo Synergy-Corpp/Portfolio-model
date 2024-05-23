@@ -21,7 +21,7 @@ const StandingDigi=()=> {
           <section ref={leftColumnRef} className=" flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              src="/img/standing-digi.png"
+              src="/img/9.webp"
               aria-label="Image"
               role="img"
             />
@@ -29,13 +29,14 @@ const StandingDigi=()=> {
           <section ref={slideInUp} className="slideInUp flex flex-col items-stretch w-[24%] ml-5 max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch my-auto max-md:mt-10">
               <div className="items-stretch bg-white flex flex-col pl-2.5 pb-12 rounded-2xl">
-                <div className="flex flex-col mb-5 pl-5 pr-8 pt-7 pb-12 items-start max-md:px-5">
+                <div className=" flex flex-col mb-5 pl-5 pr-8 pt-7 pb-12 items-start max-md:px-5">
                   {/* 1 */}
                   <img
                     loading="lazy"
-                     src="/img/stand1.png"
+                    src="/img/10.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Strategic Consulting
@@ -52,9 +53,10 @@ const StandingDigi=()=> {
                   {/* 2 */}
                   <img
                     loading="lazy"
-                     src="/img/stand2.png"
+                    src="/img/11.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Data Analytics & Insights
@@ -74,11 +76,12 @@ const StandingDigi=()=> {
                  {/* 3 */}
                   <img
                     loading="lazy"
-                     src="/img/stand3.png"
+                    src="/img/12.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
-                  <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
+                  <h2 className="text-neutral-700 text-center text-md font-bold leading-11 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Integrated Campaign Management
                   </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3.5">
@@ -92,9 +95,10 @@ const StandingDigi=()=> {
                   {/* 4 */}
                   <img
                     loading="lazy"
-                     src="/img/stand4.png"
+                    src="/img/13.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Chatbot Heroes

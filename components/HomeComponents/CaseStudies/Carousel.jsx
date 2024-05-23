@@ -4,19 +4,19 @@ import './txt.css';
 const Carousel = () => {
   const carouselItems = [
     {
-      imgSrc: '/img/retail.jpg',
+      imgSrc: '/img/16.webp',
       title: 'Healthcare on The Web',
       excerpt: 'Explore our bespoke healthcare solutions at Synergy. We specialize in developing patient management systems that are not only user-friendly but also enhance the efficiency of medical staff operations. Our custom solutions have been shown to increase patient engagement by over 200%, ensuring a smoother, more responsive healthcare experience',
       readMoreUrl: '#',
     },
     {
-      imgSrc: '/img/B2B.jpg',
+      imgSrc: '/img/17.webp',
       title: 'Education Reimagined',
       excerpt: ' Synergy transforms the educational landscape with our advanced e-learning solutions. By integrating SEO-optimized content and intuitive learning interfaces, we have successfully increased user enrollments and course completion rates. Our platforms are designed to engage students and educators alike, making learning accessible and effective for everyone.',
       readMoreUrl: '#',
     },
     {
-      imgSrc: '/img/health.jpg',
+      imgSrc: '/img/18.webp',
       title: 'Startup Ecosystems',
       excerpt: 'At Synergy, we empower startups to thrive in competitive markets. Our full-spectrum digital marketing campaigns are tailored to drive significant growth, as evidenced by a 300% increase in user base for our clients. We provide end-to-end support from initial strategy to execution, ensuring that your startup not only launches successfully but also scales to become a market leader.',
       readMoreUrl: '#',

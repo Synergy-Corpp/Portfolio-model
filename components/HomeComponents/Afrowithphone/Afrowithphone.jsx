@@ -67,7 +67,7 @@ When you partner with Synergy, you’re setting your business up for measurable 
         <div ref={rightColumnRef} className=" flex flex-col items-stretch w-[48%] ml-5 max-md:w-full max-md:ml-0">
           <Image
             loading="lazy"
-            src="/img/testimonial.png"
+            src="/img/15.webp"
             alt="Description of the image"
             layout="responsive"
             width={1000}

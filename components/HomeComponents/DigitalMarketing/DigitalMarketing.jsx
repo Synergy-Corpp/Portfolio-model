@@ -25,16 +25,17 @@ const DigitalMarketing = () => {
               aria-label="Significant ROI"
               role="region"
             >
-              <div className="Group1  relative">
-              <Image
-                src="/img/digi1.png"
-                alt="ROI Graphic"
-                width={20}
-                height={20}
-                layout="responsive"
-                className="aspect-square object-contain object-center mt-6 w-[20px] h-[20px] overflow-hidden self-center max-w-full"
-              />
-              </div>
+                 <div className="Group1 w-28 h-28 relative">
+
+                <Image
+                  src="/img/2.webp"
+                  alt="ROI Graphic"
+                  layout="responsive"
+                  width={20}
+                  height={20}
+                  className="aspect-square mt-6 object-contain object-center w-[120px] overflow-hidden self-center max-w-full"
+                />
+                </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
               Integrated Solutions Development
               </h2>
@@ -61,7 +62,7 @@ const DigitalMarketing = () => {
              <div className="Group1 w-28 h-28 relative">
 
               <Image
-                src="/img/roi1.png"
+                src="/img/3.webp"
                 alt="ROI Graphic"
                 layout="responsive"
                 width={20}
@@ -92,7 +93,7 @@ const DigitalMarketing = () => {
              <div className="Group1 w-28 h-28 relative">
 
               <Image
-                src="/img/digi2.png"
+                src="/img/4.webp"
                 alt="ROI Graphic"
                 layout="responsive"
                 width={20}

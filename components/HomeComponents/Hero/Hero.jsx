@@ -78,8 +78,8 @@ const Hero=()=> {
               {/* right column */}
                <div className="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0 "ref={rightColumnRef}>
                 <img
-                  src="/img/hero-right.png"
-                  className="aspect-[1.42] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  src="/img/1.webp"
+                  className="aspect-[1.2] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
                   alt="Image 2"
                 />
               </div> 

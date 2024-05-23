@@ -23,7 +23,7 @@ return (
         <div ref={leftColumnRef} className=" flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
           <img
             loading="lazy"
-            src="/img/small-people.png"
+            src="/img/5.webp"
             className="aspect-[1.31] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-8"
             alt="Image"
           />

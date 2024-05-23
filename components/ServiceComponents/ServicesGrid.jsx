@@ -25,7 +25,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex grow flex-col w-full mt-8 px-8 py-11 rounded-xl max-md:mt-10 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services1.png"
+                src="/img/28.webp"
                 className="aspect-[1.22] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <h4 className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-3">
@@ -40,7 +40,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex flex-col w-full px-5 py-12 rounded-xl max-md:mt-8 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services2.png"
+                src="/img/29.webp"
                 className="aspect-[1.17] object-contain object-center w-[103px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-2">
@@ -74,7 +74,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex grow flex-col w-full mt-8 px-6 py-10 rounded-xl max-md:mt-10 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services4.png"
+                src="/img/30.webp"
                 className="aspect-[1.17] object-contain object-center w-[104px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-3">
@@ -89,7 +89,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex flex-col w-full px-8 py-12 rounded-xl max-md:mt-8 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services5.png"
+                src="/img/31.webp"
                 className="aspect-[1.25] object-contain object-center w-[104px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-2.5">
@@ -104,7 +104,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex flex-col w-full mt-8 px-5 py-9 rounded-xl max-md:mt-10 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services6.png"
+                src="/img/32.webp"
                 className="aspect-[1.26] object-contain object-center w-[106px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-4">
@@ -123,7 +123,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex grow flex-col w-full mt-8 px-5 py-12 rounded-xl max-md:mt-10 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services7.png"
+                src="/img/33.webp"
                 className="aspect-[1.25] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-2.5">
@@ -136,7 +136,7 @@ const  ServicesGrid=()=> {
           <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
             <span className="items-stretch shadow-lg bg-white flex flex-col w-full px-8 py-12 rounded-xl max-md:mt-8 max-md:px-5">
               <img
-              src="/img/services8.png"
+              src="/img/34.webp"
                 alt="image-icon"
                 className="aspect-[1.22] object-contain object-center w-[105px] overflow-hidden self-center max-w-full mt-2"
               />
@@ -152,7 +152,7 @@ const  ServicesGrid=()=> {
             <span className="items-stretch shadow-lg bg-white flex flex-col w-full mt-8 px-6 py-10 rounded-xl max-md:mt-10 max-md:px-5">
               <img
                 alt="image-icon"
-                src="/img/services9.png"
+                src="/img/35.webp"
                 className="aspect-[1.19] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-3">

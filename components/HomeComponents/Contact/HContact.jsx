@@ -41,7 +41,7 @@ const HContact=()=> {
           <div  ref={leftColumnRef} className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              src="/img/contact.png"
+              src="/img/22.webp"
               alt="Description of the image"
             />
           </div>

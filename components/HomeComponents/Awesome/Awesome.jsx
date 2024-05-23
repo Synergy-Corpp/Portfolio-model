@@ -22,7 +22,7 @@ const Awesome=()=> {
         <div ref={leftColumnRef} className=" flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
           <img
             loading="lazy"
-            src="/img/keyword analyst.png"
+            src="/img/14.webp"
             alt="analyst"
             width={500}
             height={500}

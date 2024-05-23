@@ -27,7 +27,7 @@ const FullServiceDigi = () => {
             <div className="Group1 mt-6 rounded-full  bg-white shadow-2xl hover:opacity-100
          transition-colors imgShadow duration-300 w-28 h-28 relative">
               <Image
-                src="/img/digi1.png"
+                src="/img/6.webp"
                 alt="ROI Graphic"
                 layout="responsive"
                 width={20}
@@ -61,7 +61,7 @@ const FullServiceDigi = () => {
               <div className="Group1  mt-6 rounded-full bg-white  shadow-xl imgShadow w-28 h-28 relative">
 
               <Image
-                src="/img/roi1.png"
+                src="/img/7.webp"
                 alt="ROI Graphic"
                 layout="responsive"
                 width={20}
@@ -94,7 +94,7 @@ const FullServiceDigi = () => {
               <div className="Group1  mt-6 rounded-full bg-white shadow-xl imgShadow w-28 h-28 relative">
 
               <Image
-                src="/img/digi2.png"
+                src="/img/8.webp"
                 alt="ROI Graphic"
                 layout="responsive"
                 width={20}

@@ -22,7 +22,7 @@ const SolutionsStanding=()=> {
           <section ref={leftColumnRef} className=" flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              src="/img/standing-digi.png"
+              src="/img/36.webp"
               aria-label="Image"
               role="img"
             />
@@ -38,9 +38,10 @@ const SolutionsStanding=()=> {
                   {/* 1 */}
                   <img
                     loading="lazy"
-                     src="/img/stand1.png"
+                    src="/img/28.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Custom Web Design Solutions                  </h2>
@@ -55,9 +56,10 @@ const SolutionsStanding=()=> {
                   {/* 2 */}
                   <img
                     loading="lazy"
-                     src="/img/stand2.png"
+                    src="/img/27.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Advanced SEO Strategies                   </h2>
@@ -75,9 +77,10 @@ const SolutionsStanding=()=> {
                  {/* 3 */}
                   <img
                     loading="lazy"
-                     src="/img/stand3.png"
+                    src="/img/24.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   Social Media Engagement                  </h2>
@@ -91,9 +94,10 @@ const SolutionsStanding=()=> {
                   {/* 4 */}
                   <img
                     loading="lazy"
-                     src="/img/stand4.png"
+                    src="/img/26.webp"
                     aria-label="Image"
                     role="img"
+                    className='w-28 h-28'
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
                   AI-Powered Chatbot Services                  </h2>
