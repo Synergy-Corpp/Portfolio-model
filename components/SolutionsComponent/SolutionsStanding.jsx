@@ -22,7 +22,7 @@ const SolutionsStanding=()=> {
           <section ref={leftColumnRef} className=" flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              src="/img/36.webp"
+              src="/img/37.webp"
               aria-label="Image"
               role="img"
             />
@@ -38,12 +38,12 @@ const SolutionsStanding=()=> {
                   {/* 1 */}
                   <img
                     loading="lazy"
-                    src="/img/28.webp"
+                    src="/img/36.webp"
                     aria-label="Image"
                     role="img"
                     className='w-28 h-28'
                   />
-                  <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
+                  <h2 className="text-neutral-700 text-center text-lg font-bold  whitespace-nowrap  self-end ">
                   Custom Web Design Solutions                  </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3">
                   At Synergy, we believe in creating more than just websites; we create digital experiences. Our approach to web design combines aesthetic elegance with functional design to craft websites that not only look stunning but also perform exceptionally. Each design is tailored to reflect the unique brand identity of our clients while enhancing user engagement through intuitive navigation and interactive elements.
@@ -56,7 +56,7 @@ const SolutionsStanding=()=> {
                   {/* 2 */}
                   <img
                     loading="lazy"
-                    src="/img/27.webp"
+                    src="/img/23.webp"
                     aria-label="Image"
                     role="img"
                     className='w-28 h-28'
@@ -82,7 +82,7 @@ const SolutionsStanding=()=> {
                     role="img"
                     className='w-28 h-28'
                   />
-                  <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
+                  <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5 ">
                   Social Media Engagement                  </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3.5">
                   Transform your social media presence with Synergy’s innovative engagement strategies. We harness the power of social platforms to foster meaningful interactions and build a community around your brand. Our campaigns are designed to resonate with your audience, enhancing brand loyalty and converting passive viewers into active participants and brand advocates.
@@ -94,7 +94,7 @@ const SolutionsStanding=()=> {
                   {/* 4 */}
                   <img
                     loading="lazy"
-                    src="/img/26.webp"
+                    src="/img/25.webp"
                     aria-label="Image"
                     role="img"
                     className='w-28 h-28'

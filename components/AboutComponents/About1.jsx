@@ -23,7 +23,7 @@ const About1=()=> {
          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
          <div ref={leftColumnRef} className="flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
               <img
-              src="/img/about us 1.png"
+              src="/img/33.webp"
               alt="SEO Image"
             />
           </div>

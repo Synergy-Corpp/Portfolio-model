@@ -116,7 +116,7 @@ const About2 = () => {
                 {/* image */}
                 <div ref={rightColumnRef} className="flex flex-col items-stretch w-[50%] ml-5 max-md:w-full max-md:ml-0">
                   <img
-                    src="/img/aboutus2.png"
+                    src="/img/34.webp"
                     alt="about us"
                   /> 
                 </div>

@@ -1,7 +1,7 @@
 'use client'
 import { useForm, ValidationError } from '@formspree/react';
 import { useRef,useState } from "react";
-
+import { FaInstagram, FaTwitter, FAGithub} from 'react-icons/fa';
 const Contact =()=> {
   const [state, handleSubmit] = useForm("mrgnkzqv");
 
@@ -35,11 +35,20 @@ const Contact =()=> {
                   className="aspect-[0.9] object-contain object-center ml-0 w-16 overflow-hidden my-auto "
                   src="/img/phone.png"
                   /> */}
+                  <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram />
+                    </a>
                   <img
                   loading="lazy"
                   src="/img/email.png"
                   className="aspect-[0.95] object-contain object-center ml-0 w-16 overflow-hidden mt-4 "
                   />
+                    <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <FaTwitter />
+                    </a>
+                    <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <FaGithub />
+                    </a>
                   {/* <img
                   loading="lazy"
                   src="img/address.png"

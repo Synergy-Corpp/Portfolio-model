@@ -21,7 +21,7 @@ const AboutBot=()=> {
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div ref={leftColumnRef} className="flex flex-col items-stretch w-[56%] max-md:w-full max-md:ml-0">
           <img
-            src="/img/aboutBot.png"
+            src="/img/35.webp"
             alt="aboutBot"
           />
         </div>
