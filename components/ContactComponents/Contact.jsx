@@ -1,7 +1,7 @@
 'use client'
 import { useForm, ValidationError } from '@formspree/react';
 import { useRef,useState } from "react";
-import { FaInstagram, FaTwitter, FAGithub} from 'react-icons/fa';
+import { FaInstagram, FaTwitter,FaFacebook, FaGithub,FaMailBulk} from 'react-icons/fa';
 const Contact =()=> {
   const [state, handleSubmit] = useForm("mrgnkzqv");
 
@@ -30,40 +30,32 @@ const Contact =()=> {
           {/* Contact details */}
               <div className="ALPHA flex items-stretch mt-10 px-auto mx-auto max-md:max-w-full">
               <div className="A flex-grow flex-col  text-xl text-neutral-700 my-auto px-0 mx-2 max-md:max-w-full">
-                  {/* <img
-                  loading="lazy"
-                  className="aspect-[0.9] object-contain object-center ml-0 w-16 overflow-hidden my-auto "
-                  src="/img/phone.png"
-                  /> */}
-                  <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram />
+                 
+                  <a href="https://www.instagram.com/synergy_corpp?igsh=MXZjYnRtZWNmaThxaA%3D%3D&utm_source=qr " target="_blank" rel="noopener noreferrer" >
+                    <FaInstagram className='ml-0 w-16 mb-4 ' />
                     </a>
-                  <img
-                  loading="lazy"
-                  src="/img/email.png"
-                  className="aspect-[0.95] object-contain object-center ml-0 w-16 overflow-hidden mt-4 "
-                  />
-                    <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter />
+                    <a href="https://www.facebook.com/profile.php?id=61558486978981&mibextid=LQQJ4d " target="_blank" rel="noopener noreferrer" >
+                    <FaFacebook className='ml-0 w-16 mb-4 ' />
                     </a>
-                    <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
+                 
+                  
+                    <a href="https://twitter.com/@synergycorpp" target="_blank" rel="noopener noreferrer">
+                    <FaTwitter className='ml-0 w-16 mb-4 ' />
                     </a>
-                  {/* <img
-                  loading="lazy"
-                  src="img/address.png"
-                  className="aspect-[0.95] object-contain object-center ml-0 w-16 overflow-hidden  mt-4 "
-                  /> */}
+                    <a href="https://github.com/Synergy-Corpp" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className='ml-0 w-16 mb-4 '  />
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" >
+                    <FaMailBulk className='ml-0 w-16 mb-4 ' />
+                    </a>
               </div>
               <div className="B flex-grow flex-col  text-xl text-neutral-700 my-auto px-5 max-md:max-w-full">
-                  {/* <h5 className="leading-[160%]  max-md:max-w-full">Phone:</h5>
-                  +66 789 12345 */}
                   <br />
-                  <h5 className="leading-[160%] mt-4 max-md:max-w-full">Email:</h5>
-                  info.isaacswebtechnologies@gmail.com
                   <br />
-                  {/* <h5 className="leading-[160%] mt-4 max-md:max-w-full">Address:</h5>
-                  123 Street, City */}
+                  <br />
+                  <br />
+                  <br />
+                  synergycorp855@gmail.com
               </div>
               </div>
      </div>
