@@ -56,7 +56,7 @@ const Footer=()=> {
                       
                     </div>
                     <div className="text-neutral-700 text-base leading-8 self-stretch grow shrink basis-auto">
-                      +234 806 947 8351
+                    +1 (470) 846-0181
                     </div>
                   </span>
                   <span className="items-center flex justify-between gap-2.5 mt-1.5">
@@ -64,7 +64,7 @@ const Footer=()=> {
                       
                     </div>
                     <div className="text-neutral-700 text-base leading-8 self-stretch grow shrink basis-auto">
-                      zicogunfolaju@gmail.com
+                    synergycorp855@gmail.com
                     </div>
                   </span>
                   <span className="items-center flex justify-between gap-3.5 mt-1.5 pr-2.5">
@@ -72,7 +72,7 @@ const Footer=()=> {
                       
                     </div>
                     <div className="text-neutral-700 text-base leading-8 self-stretch grow shrink basis-auto">
-                      Lagos, Nigeria
+                      New York, USA
                     </div>
                   </span>
                 </span>
