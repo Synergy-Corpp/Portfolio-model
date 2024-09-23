@@ -30,10 +30,10 @@ const AboutTeam=()=> {
             <div className="shadow-lg bg-white flex grow flex-col items-center w-full px-20 py-8 rounded-xl max-md:mt-8 max-md:px-5">
               <div className="shadow-sm bg-teal-500 flex w-[100px] shrink-0 h-[77px] flex-col rounded-[100px]" />
               <h2 className="text-neutral-700 text-center text-xl leading-8 whitespace-nowrap mt-12 max-md:mt-10">
-                Maria Murphy
+                Azeez Abiodun
               </h2>
               <p className="text-gray-500 text-center text-base leading-6 whitespace-nowrap mt-2">
-                SEO ans SMM specialist
+                Chief Operating Officer
               </p>
             </div>
           </div>
@@ -42,10 +42,10 @@ const AboutTeam=()=> {
             <div className="shadow-lg bg-white flex grow flex-col items-center w-full px-20 py-9 rounded-xl max-md:mt-8 max-md:px-5">
               <div className="shadow-sm bg-zinc-300 flex w-[100px] shrink-0 h-[77px] flex-col rounded-[100px]" />
               <h2 className="text-neutral-700 text-center text-xl leading-8 whitespace-nowrap mt-12 max-md:mt-10">
-                William matthews
+                Isaac Ogunfolaju
               </h2>
               <p className="text-gray-500 text-center text-base leading-6 whitespace-nowrap mt-2.5">
-                CEO / Founder
+                Chief Technology Officer
               </p>
             </div>
           </div>
@@ -55,10 +55,10 @@ const AboutTeam=()=> {
               <div className="flex w-[132px] max-w-full flex-col items-center">
                 <div className="shadow-sm bg-teal-500 flex w-[100px] shrink-0 h-[77px] flex-col rounded-[100px]" />
                 <h2 className="text-neutral-700 text-center text-xl leading-8 self-stretch whitespace-nowrap mt-12 max-md:mt-10">
-                  Lina D’Souja
+                  Abigail Ogunfolaju
                 </h2>
                 <p className="text-gray-500 text-center text-base leading-6 self-stretch whitespace-nowrap mt-2">
-                  Marketing Manager
+                  Social Media Manager
                 </p>
               </div>
             </div>
