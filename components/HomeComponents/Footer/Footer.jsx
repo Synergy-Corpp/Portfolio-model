@@ -119,7 +119,7 @@ const Footer=()=> {
           </div>
         </span>
         <div className="relative text-neutral-700 text-base leading-6 capitalize grow shrink basis-auto">
-          Copyright © 2024 by Isaac's Web Technologies - All Rights Reserved
+          Copyright © 2024 by SYNERGY SOLUTIONS LLC - All Rights Reserved
         </div>
       </div>
     </div>
