@@ -8,11 +8,11 @@ const DigitalMarketing = () => {
   const slideInUp = useRef(null);
 
   const restartAnimation = () => {
-    // Add animation classes to restart animations
+    // to restart animations
     slideInUp.current.classList.add('slideInUp');
   };
 
-  // Apply intersection observer to both columns
+  // intersection observer to both columns
   useIntersectionObserver(slideInUp, restartAnimation);
   return (
     <div className="items-stretch self-stretch flex flex-col pb-12  ">
