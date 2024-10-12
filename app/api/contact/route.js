@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 export async function POST(req) {
   const { name, email, message } = await req.json();
-  
+
   // Nodemailer 
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
@@ -11,7 +11,6 @@ export async function POST(req) {
       pass: process.env.GMAIL_PASS,
     },
   });
-
   const mailOptions = {
     from: email, 
     to: 'synergycorp855@gmail.com', 
