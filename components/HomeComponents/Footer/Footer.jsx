@@ -1,19 +1,8 @@
 'use client'
-// import ScrollEvent from '/hooks/ScrollEvent';
 
 const Footer=()=> {
-  // const { isScrolled, scrollToTop } = ScrollEvent();
   return (
     <div className="flex-col overflow-hidden relative flex min-h-[512px] justify-center items-stretch py-3">
-             {/* Scroll to top button */}
-             {/* {isScrolled && (
-        <button
-          className={`scroll-to-top ${isScrolled ? 'visible' : 'hidden'}`}
-          onClick={scrollToTop}
-        >
-          Scroll to Top
-        </button>
-      )} */}
       <img
         loading="lazy"
         src="/img/herobk.png"
@@ -37,7 +26,7 @@ const Footer=()=> {
                 <span className="self-stretch flex grow flex-col pr-10 pt-5 pb-12 items-start max-md:pr-5">
                   < img
                     loading="lazy"
-                    src="/img/Transparent-logo.png"
+                    src="/img/Logo-01.svg"
                     className="aspect-[0.99] object-contain object-center w-[75px] overflow-hidden max-w-full"
                   />
                   <div className="text-neutral-700 text-base leading-6 self-stretch mt-11 mb-2.5 max-md:mt-10">

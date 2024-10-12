@@ -7,12 +7,12 @@ const Smallpple=() =>{
   const rightColumnRef = useRef(null);
 
   const restartAnimation = () => {
-    // Add animation classes to restart animations
+    //  restart animations
     leftColumnRef.current.classList.add('slideInLeft');
     rightColumnRef.current.classList.add('slideInRight');
   };
 
-// Apply intersection observer to both columns
+// intersection observer to both columns
 useIntersectionObserver(leftColumnRef, restartAnimation);
 useIntersectionObserver(rightColumnRef, restartAnimation);
 
