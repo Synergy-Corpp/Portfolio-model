@@ -1,7 +1,6 @@
 'use client'
 import React, { useState,useEffect } from 'react';
 import { FaAngleUp } from 'react-icons/fa';
-import styles from './BackToTopBotton.css';
 
 const BackToTopButton = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
