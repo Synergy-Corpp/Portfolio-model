@@ -4,7 +4,7 @@ import useIntersectionObserver from "../../../hooks/useIntersectionObserver";
 import { useRef } from "react";
 
 
-const Afrowithphone=()=> {
+const WhyChooseUs=()=> {
   const leftColumnRef = useRef(null);
   const rightColumnRef = useRef(null);
 
@@ -80,4 +80,4 @@ When you partner with Synergy, you’re setting your business up for measurable 
     </>
   );
 };
-export default Afrowithphone;
+export default WhyChooseUs;

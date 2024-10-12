@@ -7,12 +7,10 @@ const Meeting=()=> {
   const rightColumnRef = useRef(null);
 
   const restartAnimation = () => {
-    // Add animation classes to restart animations
     leftColumnRef.current.classList.add('slideInLeft');
     rightColumnRef.current.classList.add('slideInRight');
   };
 
-  // Apply intersection observer to both columns
   useIntersectionObserver(leftColumnRef, restartAnimation);
   useIntersectionObserver(rightColumnRef, restartAnimation);
   return (

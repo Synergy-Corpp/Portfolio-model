@@ -12,7 +12,6 @@ const RollinNos =()=> {
     rightColumnRef.current.classList.add('slideInRight');
   };
 
-  // Intersection observer to both columns
   useIntersectionObserver(leftColumnRef, restartAnimation);
   useIntersectionObserver(rightColumnRef, restartAnimation);
   return (
@@ -42,7 +41,7 @@ const RollinNos =()=> {
             <br />
             Don’t settle for average. Choose Synergy and let us help you make your mark in the digital world. Ready to start? Let’s achieve greatness together.
           </div>
-          <button className="items-stretch shadow-sm bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex w-[219px] max-w-full flex-col justify-center mt-8 px-10 py-4 rounded-3xl self-start max-md:px-5">
+          <button className="mb-8 items-stretch shadow-sm bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex w-[219px] max-w-full flex-col justify-center mt-8 px-10 py-4 rounded-3xl self-start max-md:px-5">
             <span className="justify-between items-stretch flex gap-3 px-0.5">
               <a
                 href="/About"

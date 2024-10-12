@@ -12,7 +12,6 @@ const Smallpple=() =>{
     rightColumnRef.current.classList.add('slideInRight');
   };
 
-// intersection observer to both columns
 useIntersectionObserver(leftColumnRef, restartAnimation);
 useIntersectionObserver(rightColumnRef, restartAnimation);
 

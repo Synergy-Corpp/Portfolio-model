@@ -8,11 +8,9 @@ const StandingDigi=()=> {
   const slideInUp = useRef(null);
 
   const restartAnimation = () => {
-    // Add animation classes to restart animations
     leftColumnRef.current.classList.add('slideInLeft');
     slideInUp.current.classList.add('slideInUp');  };
 
-  // Apply intersection observer to both columns
   useIntersectionObserver(leftColumnRef, restartAnimation);
   useIntersectionObserver(slideInUp, restartAnimation);
     return (
