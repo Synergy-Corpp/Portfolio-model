@@ -6,11 +6,9 @@ const  ServicesGrid=()=> {
   const zoomInUpRef = useRef(null);
   
   const restartAnimation = () => {
-    // Add animation classes to restart animations
     zoomInUpRef.current.classList.add('zoomInUp');
   };
 
-  // Apply intersection observer to both columns
   useIntersectionObserver(zoomInUpRef, restartAnimation);
 
   return (

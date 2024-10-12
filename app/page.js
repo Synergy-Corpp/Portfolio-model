@@ -6,7 +6,7 @@ import FullServiceDigi from '../components/HomeComponents/FullServiceDigi/FullSe
 import Purpleseo from '../components/HomeComponents/Purpleseo/Purpleseo'
 import Smallpple from '../components/HomeComponents/Smallpple/Smallpple'
 import StandingDigi from '../components/HomeComponents/StandingDigi/StandingDigi'
-import Afrowithphone from '../components/HomeComponents/Afrowithphone/Afrowithphone'
+import WhyChooseUs from '../components/HomeComponents/WhyChooseUs/WhyChooseUs'
 import Hero from '../components/HomeComponents/Hero/Hero'
 import RollinNos from '../components/HomeComponents/RollingNos/RollingNos'
 import Carousel from '../components/HomeComponents/CaseStudies/Carousel'
@@ -23,7 +23,7 @@ export default function Home() {
     <StandingDigi /> 
     <RollinNos />
     <Awesome />
-    <Afrowithphone />
+    <WhyChooseUs />
     <Carousel />
     <HContact />
     <Purpleseo/>
